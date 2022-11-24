@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Bartlomiej\Desktop\switch_matrix\switch_matrix.kicad_sch</source>
+    <date>18/11/2022 19:12:42</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>switch_matrix.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>DIODE</value>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a22016a0-6405-459d-843a-0b8ec0fb58e0</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>DIODE</value>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f3986d2-5d12-4a4d-b248-97f46b45b23b</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>DIODE</value>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>127c8326-2cd8-42b8-8a03-c8cdd6470af4</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>DIODE</value>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e3bce25-6423-49c6-99d7-7d704bdc7d75</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>DIODE</value>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0cac33d-8e5c-4afd-b3f8-0bbe419803bb</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>DIODE</value>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>980037b3-d941-41f1-82a1-e73ec8d6ca1f</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>DIODE</value>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e551f35-d67f-4e67-b9a8-31671023d5d8</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>DIODE</value>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f098c072-d93d-4393-afab-1e39f46fcd02</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>DIODE</value>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04e6bbbb-5e38-4ac7-a9ac-f31dec88efc8</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>TACTILE_SW</value>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>994d28a0-2d62-48d4-b9ad-1ca28c8ec712</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>TACTILE_SW</value>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b67d6f9-2eb4-4ebc-86d7-c0179802ba57</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>TACTILE_SW</value>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3c8d079-a354-4bfa-ab43-27892078d4a1</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>TACTILE_SW</value>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e88ffa1-1f18-40c1-953c-1970d56a2608</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>TACTILE_SW</value>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4ce6ec0-6d21-4c0e-9e52-17fd15f423d6</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>TACTILE_SW</value>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c7f4ba4-579f-40e3-b5ee-2f8d3090d04d</tstamps>
+    </comp>
+    <comp ref="SW7">
+      <value>TACTILE_SW</value>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>130bb712-41cc-491e-827e-bb9a11451ade</tstamps>
+    </comp>
+    <comp ref="SW8">
+      <value>TACTILE_SW</value>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>140ed3dc-342c-4e79-97bf-25444141aeee</tstamps>
+    </comp>
+    <comp ref="SW9">
+      <value>TACTILE_SW</value>
+      <datasheet>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</datasheet>
+      <libsource lib="Switch" part="SW_MEC_5G" description="MEC 5G single pole normally-open tactile switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="switch_matrix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>409533fd-1675-4046-b5f9-44ec7e11ffeb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Simulation_SPICE" part="DIODE">
+      <description>Diode, anode on pin 1, for simulation only!</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+        <field name="Datasheet">~</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_MEC_5G">
+      <description>MEC 5G single pole normally-open tactile switch</description>
+      <docs>http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</docs>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_MEC_5G</field>
+        <field name="Datasheet">http://www.apem.com/int/index.php?controller=attachment&amp;id_attachment=488</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+        <pin num="4" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Simulation_SPICE">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Simulation_SPICE.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="SW8" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW8" pin="4" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="SW9" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW9" pin="4" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(SW1-Pad3)">
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(SW3-Pad3)">
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="SW3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW3" pin="4" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(SW4-Pad3)">
+      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="SW4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW4" pin="4" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(SW5-Pad3)">
+      <node ref="D5" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="SW5" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW5" pin="4" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(SW6-Pad3)">
+      <node ref="D6" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="SW6" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW6" pin="4" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(SW7-Pad3)">
+      <node ref="SW7" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="SW7" pin="4" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="10" name="in01">
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="11" name="in02">
+      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="12" name="in03">
+      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="13" name="out01">
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="14" name="out02">
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="15" name="out03">
+      <node ref="SW3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
+    </net>
+  </nets>
+</export>
