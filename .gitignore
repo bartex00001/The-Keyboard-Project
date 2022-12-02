@@ -1,1 +1,5 @@
+# Ignore KiCad files
 fp-info-cache
+
+# Ignore build files
+*/build
