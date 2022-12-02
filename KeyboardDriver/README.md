@@ -3,7 +3,6 @@
 The project is meant to be built on linux with a GCC for arm compiler.
 
 ## Dependencies
----
 
 ### Pico sdk
 
@@ -35,7 +34,6 @@ sudo make install
 ```
 
 ## Build and flash
----
 
 ### VS code
 
