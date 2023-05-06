@@ -383,7 +383,7 @@
   (symbol (lib_id "Simulation_SPICE:DIODE") (at 91.44 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 127c8326-2cd8-42b8-8a03-c8cdd6470af4)
-    (property "Reference" "D3" (id 0) (at 91.44 105.41 0))
+    (property "Reference" "D7" (id 0) (at 91.44 105.41 0))
     (property "Value" "DIODE" (id 1) (at 91.44 107.95 0))
     (property "Footprint" "" (id 2) (at 91.44 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -404,7 +404,7 @@
   (symbol (lib_id "Switch:SW_MEC_5G") (at 156.21 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 130bb712-41cc-491e-827e-bb9a11451ade)
-    (property "Reference" "KEY_9" (id 0) (at 160.02 54.6099 90)
+    (property "Reference" "KEY_3" (id 0) (at 160.02 54.6099 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TACTILE_SW" (id 1) (at 160.02 57.1499 90)
@@ -446,7 +446,7 @@
   (symbol (lib_id "Simulation_SPICE:DIODE") (at 91.44 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1f3986d2-5d12-4a4d-b248-97f46b45b23b)
-    (property "Reference" "D2" (id 0) (at 91.44 80.01 0))
+    (property "Reference" "D4" (id 0) (at 91.44 80.01 0))
     (property "Value" "DIODE" (id 1) (at 91.44 82.55 0))
     (property "Footprint" "" (id 2) (at 91.44 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -467,7 +467,7 @@
   (symbol (lib_id "Simulation_SPICE:DIODE") (at 120.65 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2e3bce25-6423-49c6-99d7-7d704bdc7d75)
-    (property "Reference" "D4" (id 0) (at 120.65 54.61 0))
+    (property "Reference" "D2" (id 0) (at 120.65 54.61 0))
     (property "Value" "DIODE" (id 1) (at 120.65 57.15 0))
     (property "Footprint" "" (id 2) (at 120.65 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -488,7 +488,7 @@
   (symbol (lib_id "Switch:SW_MEC_5G") (at 156.21 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 409533fd-1675-4046-b5f9-44ec7e11ffeb)
-    (property "Reference" "KEY_3" (id 0) (at 160.02 105.4099 90)
+    (property "Reference" "KEY_9" (id 0) (at 160.02 105.4099 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TACTILE_SW" (id 1) (at 160.02 107.9499 90)
@@ -509,7 +509,7 @@
   (symbol (lib_id "Switch:SW_MEC_5G") (at 127 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6c7f4ba4-579f-40e3-b5ee-2f8d3090d04d)
-    (property "Reference" "KEY_2" (id 0) (at 130.81 105.4099 90)
+    (property "Reference" "KEY_8" (id 0) (at 130.81 105.4099 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TACTILE_SW" (id 1) (at 130.81 107.9499 90)
@@ -530,7 +530,7 @@
   (symbol (lib_id "Simulation_SPICE:DIODE") (at 149.86 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7e551f35-d67f-4e67-b9a8-31671023d5d8)
-    (property "Reference" "D7" (id 0) (at 149.86 54.61 0))
+    (property "Reference" "D3" (id 0) (at 149.86 54.61 0))
     (property "Value" "DIODE" (id 1) (at 149.86 57.15 0))
     (property "Footprint" "" (id 2) (at 149.86 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -572,7 +572,7 @@
   (symbol (lib_id "Simulation_SPICE:DIODE") (at 120.65 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 980037b3-d941-41f1-82a1-e73ec8d6ca1f)
-    (property "Reference" "D6" (id 0) (at 120.65 105.41 0))
+    (property "Reference" "D8" (id 0) (at 120.65 105.41 0))
     (property "Value" "DIODE" (id 1) (at 120.65 107.95 0))
     (property "Footprint" "" (id 2) (at 120.65 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -593,7 +593,7 @@
   (symbol (lib_id "Switch:SW_MEC_5G") (at 97.79 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 994d28a0-2d62-48d4-b9ad-1ca28c8ec712)
-    (property "Reference" "KEY_7" (id 0) (at 101.6 54.6099 90)
+    (property "Reference" "KEY_1" (id 0) (at 101.6 54.6099 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TACTILE_SW" (id 1) (at 101.6 57.1499 90)
@@ -614,7 +614,7 @@
   (symbol (lib_id "Switch:SW_MEC_5G") (at 127 55.88 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9e88ffa1-1f18-40c1-953c-1970d56a2608)
-    (property "Reference" "KEY_8" (id 0) (at 130.81 54.6099 90)
+    (property "Reference" "KEY_2" (id 0) (at 130.81 54.6099 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TACTILE_SW" (id 1) (at 130.81 57.1499 90)
@@ -698,7 +698,7 @@
   (symbol (lib_id "Switch:SW_MEC_5G") (at 97.79 106.68 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e3c8d079-a354-4bfa-ab43-27892078d4a1)
-    (property "Reference" "KEY_1" (id 0) (at 101.6 105.4099 90)
+    (property "Reference" "KEY_7" (id 0) (at 101.6 105.4099 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TACTILE_SW" (id 1) (at 101.6 107.9499 90)
@@ -719,7 +719,7 @@
   (symbol (lib_id "Simulation_SPICE:DIODE") (at 149.86 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f098c072-d93d-4393-afab-1e39f46fcd02)
-    (property "Reference" "D8" (id 0) (at 149.86 80.01 0))
+    (property "Reference" "D6" (id 0) (at 149.86 80.01 0))
     (property "Value" "DIODE" (id 1) (at 149.86 82.55 0))
     (property "Footprint" "" (id 2) (at 149.86 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -745,37 +745,37 @@
     (path "/a22016a0-6405-459d-843a-0b8ec0fb58e0"
       (reference "D1") (unit 1) (value "DIODE") (footprint "")
     )
-    (path "/1f3986d2-5d12-4a4d-b248-97f46b45b23b"
+    (path "/2e3bce25-6423-49c6-99d7-7d704bdc7d75"
       (reference "D2") (unit 1) (value "DIODE") (footprint "")
     )
-    (path "/127c8326-2cd8-42b8-8a03-c8cdd6470af4"
+    (path "/7e551f35-d67f-4e67-b9a8-31671023d5d8"
       (reference "D3") (unit 1) (value "DIODE") (footprint "")
     )
-    (path "/2e3bce25-6423-49c6-99d7-7d704bdc7d75"
+    (path "/1f3986d2-5d12-4a4d-b248-97f46b45b23b"
       (reference "D4") (unit 1) (value "DIODE") (footprint "")
     )
     (path "/b0cac33d-8e5c-4afd-b3f8-0bbe419803bb"
       (reference "D5") (unit 1) (value "DIODE") (footprint "")
     )
-    (path "/980037b3-d941-41f1-82a1-e73ec8d6ca1f"
+    (path "/f098c072-d93d-4393-afab-1e39f46fcd02"
       (reference "D6") (unit 1) (value "DIODE") (footprint "")
     )
-    (path "/7e551f35-d67f-4e67-b9a8-31671023d5d8"
+    (path "/127c8326-2cd8-42b8-8a03-c8cdd6470af4"
       (reference "D7") (unit 1) (value "DIODE") (footprint "")
     )
-    (path "/f098c072-d93d-4393-afab-1e39f46fcd02"
+    (path "/980037b3-d941-41f1-82a1-e73ec8d6ca1f"
       (reference "D8") (unit 1) (value "DIODE") (footprint "")
     )
     (path "/04e6bbbb-5e38-4ac7-a9ac-f31dec88efc8"
       (reference "D9") (unit 1) (value "DIODE") (footprint "")
     )
-    (path "/e3c8d079-a354-4bfa-ab43-27892078d4a1"
+    (path "/994d28a0-2d62-48d4-b9ad-1ca28c8ec712"
       (reference "KEY_1") (unit 1) (value "TACTILE_SW") (footprint "")
     )
-    (path "/6c7f4ba4-579f-40e3-b5ee-2f8d3090d04d"
+    (path "/9e88ffa1-1f18-40c1-953c-1970d56a2608"
       (reference "KEY_2") (unit 1) (value "TACTILE_SW") (footprint "")
     )
-    (path "/409533fd-1675-4046-b5f9-44ec7e11ffeb"
+    (path "/130bb712-41cc-491e-827e-bb9a11451ade"
       (reference "KEY_3") (unit 1) (value "TACTILE_SW") (footprint "")
     )
     (path "/8b67d6f9-2eb4-4ebc-86d7-c0179802ba57"
@@ -787,13 +787,13 @@
     (path "/140ed3dc-342c-4e79-97bf-25444141aeee"
       (reference "KEY_6") (unit 1) (value "TACTILE_SW") (footprint "")
     )
-    (path "/994d28a0-2d62-48d4-b9ad-1ca28c8ec712"
+    (path "/e3c8d079-a354-4bfa-ab43-27892078d4a1"
       (reference "KEY_7") (unit 1) (value "TACTILE_SW") (footprint "")
     )
-    (path "/9e88ffa1-1f18-40c1-953c-1970d56a2608"
+    (path "/6c7f4ba4-579f-40e3-b5ee-2f8d3090d04d"
       (reference "KEY_8") (unit 1) (value "TACTILE_SW") (footprint "")
     )
-    (path "/130bb712-41cc-491e-827e-bb9a11451ade"
+    (path "/409533fd-1675-4046-b5f9-44ec7e11ffeb"
       (reference "KEY_9") (unit 1) (value "TACTILE_SW") (footprint "")
     )
   )
