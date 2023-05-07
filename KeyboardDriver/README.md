@@ -13,7 +13,7 @@ git clone -b master https://github.com/raspberrypi/pico-sdk.git
 cd pico-sdk
 git submodule update --init
 ```
-> Remember to replace _"your path to pico_sdk"_ with and actual path.
+> Remember to replace _"your path to pico_sdk"_ in CMakeLists.txt with and actual path.
 
 ### Compilers and libraries for arm
 ```bash
