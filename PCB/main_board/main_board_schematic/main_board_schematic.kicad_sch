@@ -3525,9 +3525,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 33da6dd5-1f43-4462-98c9-cfdb61d65ff6)
   )
-  (text "Crystal" (at 128.27 242.57 0)
+  (text "Crystal" (at 126.365 237.49 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 4207d941-903d-4c55-a491-769457f7dcfe)
+  )
+  (text "Right side of the board" (at 295.275 139.7 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 455e8f1b-4722-44cd-8852-75f9acb74b76)
   )
   (text "Key stabilizers\n" (at 180.34 90.17 90)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3549,6 +3553,10 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid aab8d205-614b-4ecc-9c2b-bbe9c6fba558)
   )
+  (text "Left side of the board" (at 296.545 23.495 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bbdeb718-53e7-444f-9ed0-fbebebd6129c)
+  )
   (text "Reset switch" (at 123.19 57.15 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c9663c2f-4cf7-4e5d-af41-e4ab20e0c623)
@@ -3557,7 +3565,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d62f8d04-99d8-48bc-9e56-93b6e16f2d3a)
   )
-  (text "Flash memory\n" (at 22.86 229.87 0)
+  (text "Flash memory\n" (at 22.225 232.41 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid f3ca3b04-954d-496d-963a-f4b560305bfd)
   )
@@ -4312,7 +4320,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 189.23 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 001fc574-9bc2-43d4-bd26-bf900e91588a)
-    (property "Reference" "S6" (at 188.468 67.31 0)
+    (property "Reference" "S3" (at 188.468 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 191.008 67.31 0)
@@ -4327,7 +4335,7 @@
     (instances
       (project "main_board_schematic"
         (path "/eeca1343-c7ac-4fd3-9bdf-4d43c95df1aa"
-          (reference "S6") (unit 1)
+          (reference "S3") (unit 1)
         )
       )
     )
@@ -5385,7 +5393,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 189.23 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29156445-1611-4df8-a56d-afbe44291f28)
-    (property "Reference" "S7" (at 188.468 43.18 0)
+    (property "Reference" "S1" (at 188.468 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 191.008 43.18 0)
@@ -5400,7 +5408,7 @@
     (instances
       (project "main_board_schematic"
         (path "/eeca1343-c7ac-4fd3-9bdf-4d43c95df1aa"
-          (reference "S7") (unit 1)
+          (reference "S1") (unit 1)
         )
       )
     )
@@ -5643,7 +5651,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 199.39 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32e36afe-feb9-4a4e-aaf0-8ce027db99b7)
-    (property "Reference" "S2" (at 198.628 115.57 0)
+    (property "Reference" "S8" (at 198.628 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 201.168 115.57 0)
@@ -5658,7 +5666,7 @@
     (instances
       (project "main_board_schematic"
         (path "/eeca1343-c7ac-4fd3-9bdf-4d43c95df1aa"
-          (reference "S2") (unit 1)
+          (reference "S8") (unit 1)
         )
       )
     )
@@ -5749,7 +5757,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 189.23 121.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36286cd1-5189-4475-83f6-cdab41fdd073)
-    (property "Reference" "S1" (at 188.468 115.57 0)
+    (property "Reference" "S7" (at 188.468 115.57 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 191.008 115.57 0)
@@ -5764,7 +5772,7 @@
     (instances
       (project "main_board_schematic"
         (path "/eeca1343-c7ac-4fd3-9bdf-4d43c95df1aa"
-          (reference "S1") (unit 1)
+          (reference "S7") (unit 1)
         )
       )
     )
@@ -9059,7 +9067,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 199.39 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a59f2026-a8cf-4989-bcf8-7b665e21ae3c)
-    (property "Reference" "S5" (at 198.628 67.31 0)
+    (property "Reference" "S4" (at 198.628 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 201.168 67.31 0)
@@ -9074,7 +9082,7 @@
     (instances
       (project "main_board_schematic"
         (path "/eeca1343-c7ac-4fd3-9bdf-4d43c95df1aa"
-          (reference "S5") (unit 1)
+          (reference "S4") (unit 1)
         )
       )
     )
@@ -10703,7 +10711,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 199.39 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d444b5dd-02e5-41e0-a6ae-403a10313a0c)
-    (property "Reference" "S4" (at 198.628 91.44 0)
+    (property "Reference" "S6" (at 198.628 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 201.168 91.44 0)
@@ -10718,7 +10726,7 @@
     (instances
       (project "main_board_schematic"
         (path "/eeca1343-c7ac-4fd3-9bdf-4d43c95df1aa"
-          (reference "S4") (unit 1)
+          (reference "S6") (unit 1)
         )
       )
     )
@@ -11025,7 +11033,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 189.23 97.79 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df736c99-5615-4095-aa7f-14d74c53e03c)
-    (property "Reference" "S3" (at 188.468 91.44 0)
+    (property "Reference" "S5" (at 188.468 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 191.008 91.44 0)
@@ -11040,7 +11048,7 @@
     (instances
       (project "main_board_schematic"
         (path "/eeca1343-c7ac-4fd3-9bdf-4d43c95df1aa"
-          (reference "S3") (unit 1)
+          (reference "S5") (unit 1)
         )
       )
     )
@@ -11420,7 +11428,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 199.39 49.53 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ea2d2c8d-c2b8-4051-bc8d-25d7598ba843)
-    (property "Reference" "S8" (at 198.628 43.18 0)
+    (property "Reference" "S2" (at 198.628 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 201.168 43.18 0)
@@ -11435,7 +11443,7 @@
     (instances
       (project "main_board_schematic"
         (path "/eeca1343-c7ac-4fd3-9bdf-4d43c95df1aa"
-          (reference "S8") (unit 1)
+          (reference "S2") (unit 1)
         )
       )
     )
