@@ -14,6 +14,9 @@ add_library(KeyboardUtlis ${SRC_LIST} ${HEADER_LIST})
 
 target_include_directories(KeyboardUtlis PUBLIC ../include)
 
+target_link_libraries(KeyboardUtlis
+        pico_stdlib)
+
 # Link your library to the other ones, for example boost
 #target_link_libraries(exLibrary PRIVATE Boost::boost)
 
