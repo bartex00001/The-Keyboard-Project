@@ -82,3 +82,7 @@ minicom -b 115200 -o -D /dev/ttyACM0
 ```
 
 > The path to the serial port might be different on your computer.
+
+## Credits
+
+- [MightyPork/usb_hid_keys.h](https://gist.github.com/MightyPork/6da26e382a7ad91b5496ee55fdc73db2) - list of all HID keycodes
