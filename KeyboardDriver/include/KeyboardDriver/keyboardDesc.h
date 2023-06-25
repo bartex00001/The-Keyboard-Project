@@ -1,5 +1,3 @@
-// C:\Users\Bartlomiej\Desktop\keyboardDesc.h
-
 
 char ReportDescriptor[63] = {
     0x05, 0x01,                    // USAGE_PAGE (Generic Desktop)
@@ -35,4 +33,3 @@ char ReportDescriptor[63] = {
     0x81, 0x00,                    //   INPUT (Data,Ary,Abs)
     0xc0                           // END_COLLECTION
 };
-
