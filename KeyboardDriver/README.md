@@ -45,7 +45,7 @@ The easiest way to build and flash the project is to use VScode.
 With _KeyboardDriver_ foler open in VSC, firstly run `CMake: Configure` and then `CMake: Build` in the command palette.  
 This sholuld create a _build_ folder in the project root and a `*.uf2` file inside.  
 
-Using the file explorer, navigate to the _build_ folder and copy the `KeyboardDriver.uf2` file to the Pico drive.  
+Using the file explorer, navigate to the _build/apps_ folder and copy the `KeyboardDriver.uf2` file to the Pico drive.  
 The pico will restart and run the program.
 
 > Note that sometimes during the first build intellisense might not work.  
@@ -66,7 +66,7 @@ cmake ..
 make
 
 # Copy the .uf2 file to the Pico drive
-cp KeyboardDriver.uf2 /media/your_username/PICO/
+cp apps/KeyboardDriver.uf2 /media/your_username/PICO/
 ```
 
 > Kepp in mind that the path to pico drive will be different on your computer.

@@ -1,0 +1,6 @@
+#ifndef USB_DESCRIPTORS_H_
+#define USB_DESCRIPTORS_H_
+
+#define REPORT_ID_KEYBOARD 1
+
+#endif

@@ -16,6 +16,7 @@ if (PICO_SDK_VERSION_STRING VERSION_LESS "1.4.0")
 endif()
 
 project(KeyboardDriver C CXX ASM)
+add_compile_definitions(CFG_TUSB_CONFIG_FILE="KeyboardDriver/tusb_config.h")
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
