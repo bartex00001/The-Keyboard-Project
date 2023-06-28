@@ -2,11 +2,8 @@
 
 #include <KeyboardDriver/KeyMatrix.hpp>
 
-void initKeyMatrix()
+namespace KeyMatrix
 {
-    initInputLines();
-    initOutputLines();
-}
 
 void initInputLines()
 {
@@ -27,3 +24,11 @@ void initOutputLines()
         gpio_put(outputLines[i], 0);
     }
 }
+
+void initKeyMatrix()
+{
+    initInputLines();
+    initOutputLines();
+}
+
+} // namespace KeyMatrix

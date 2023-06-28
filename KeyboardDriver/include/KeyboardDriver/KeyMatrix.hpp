@@ -5,6 +5,9 @@
 #include <KeyboardDriver/Key.hpp>
 #include <KeyboardDriver/UsbHidKeys.hpp>
 
+namespace KeyMatrix
+{
+
 constexpr std::size_t inputLinesCount = 2;
 constexpr std::uint8_t const inputLines[]{
     13, 12
@@ -25,5 +28,5 @@ constexpr Key keyMatrix[inputLinesCount][outputLinesCount]{
 };
 
 void initKeyMatrix();
-void initInputLines();
-void initOutputLines();
+
+} // namespace KeyMatrix
