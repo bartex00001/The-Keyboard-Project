@@ -8,12 +8,10 @@
 namespace BufferManager
 {
 
-inline std::uint8_t keyBuffer[6]{};
-inline std::uint8_t modifiers;
-
 void clearBuffer();
 void addKey(const Key& key);
 
 void sendReport();
+void fillBuffer(std::uint8_t* buffer);
 
 }

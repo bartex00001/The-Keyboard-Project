@@ -7,8 +7,10 @@
 
 namespace BufferManager
 {
-
+std::uint8_t keyBuffer[6]{};
+std::uint8_t modifiers;
 unsigned short encodedKeys{};
+
 enum KeyState {
     CLEAR = 0,
     CLEAR_KEYS = 1,
@@ -55,6 +57,12 @@ void sendReport()
         tud_hid_keyboard_report(REPORT_ID_KEYBOARD, 0, nullptr);
         keyState = KeyState::CLEAR;
     }
+}
+
+void fillBuffer(std::uint8_t* buffer)
+{
+    buffer[0] = modifiers;
+    std::memcpy(buffer+2, keyBuffer, sizeof(keyBuffer));
 }
 
 }
