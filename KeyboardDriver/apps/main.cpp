@@ -19,27 +19,12 @@ int main()
 
     while(true)
     {
-        BufferManager::clearBuffer();
         sleep_ms(10); // Wait before next scan
+        BufferManager::clearBuffer();
 
-        tud_task(); // tinyusb device task
-
-        for(int i{}; i < KeyMatrix::outputLinesCount; i++)
-        {
-            gpio_put(KeyMatrix::outputLines[i], 1);
-
-            sleep_us(1); // Wait for the diodes to switch
-
-            for(int j{}; j < KeyMatrix::inputLinesCount; j++)
-            {
-                if(gpio_get(KeyMatrix::inputLines[j]))
-                {
-                    BufferManager::addKey(KeyMatrix::keyMatrix[j][i]);
-                }
-            }
-            gpio_put(KeyMatrix::outputLines[i], 0);
-        }
+        KeyMatrix::scanKeyMatrix();
         
+        tud_task(); // tinyusb device task
         BufferManager::sendReport();
     }
 
