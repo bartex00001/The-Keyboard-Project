@@ -7,39 +7,25 @@
 
 #include "KeyboardDriver/usbDescriptors.hpp"
 #include "KeyboardDriver/UsbHidKeys.hpp"
+#include "KeyboardDriver/KeyMatrix.hpp"
+#include "KeyboardDriver/BufferManager.hpp"
 
 int main()
 {
     board_init();
     tusb_init();
 
+    KeyMatrix::initKeyMatrix();
+
     while(true)
-    {   
-        tud_task();
+    {
+        sleep_ms(10); // Wait before next scan
+        BufferManager::clearBuffer();
+
+        KeyMatrix::scanKeyMatrix();
         
-        if(tud_suspended())
-        {
-            tud_remote_wakeup();
-        }
-        else
-        {
-            if(tud_hid_ready())
-            {
-                const std::uint8_t modifier{0};
-                uint8_t keycode[6]{0};
-
-                keycode[0] = KEY_A;
-
-                tud_hid_keyboard_report(REPORT_ID_KEYBOARD, modifier, keycode);
-
-                sleep_ms(10);
-
-                tud_task();
-                tud_hid_keyboard_report(REPORT_ID_KEYBOARD, 0, nullptr);
-                
-                sleep_ms(1000);
-            }
-        }
+        tud_task(); // tinyusb device task
+        BufferManager::sendReport();
     }
 
     return 0;
@@ -70,12 +56,15 @@ void tud_hid_report_complete_cb(uint8_t instance, uint8_t const* report, uint16_
 uint16_t tud_hid_get_report_cb(uint8_t instance, uint8_t report_id, hid_report_type_t report_type, uint8_t* buffer, uint16_t reqlen)
 {
     (void) instance;
-    (void) report_id;
     (void) report_type;
-    (void) buffer;
     (void) reqlen;
 
-    return 0;
+    if(report_id != REPORT_ID_KEYBOARD)
+        return 0;
+
+    BufferManager::fillBuffer(buffer);
+
+    return 8;
 }
 
 // Invoked when received SET_REPORT control request or 
