@@ -29,9 +29,14 @@ sudo apt install gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential
 The project is built with newish version of CMake and therefore you need build it yourself.  
 
 ```bash
-wget https://github.com/Kitware/CMake/releases/download/v3.19.4/cmake-3.25.1.tar.gz
-tar -zxvf cmake-3.25.1.tar.gz
-cd cmake-3.25.1/
+## You can pick newer version if it exists
+version=3.27
+build=0
+mkdir ~/temp
+cd ~/temp
+wget https://cmake.org/files/v$version/cmake-$version.$build.tar.gz
+tar -xzvf cmake-$version.$build.tar.gz
+cd cmake-$version.$build/
 ./bootstrap
 make
 sudo make install
